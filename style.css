@@ -1,5 +1,5 @@
 .box {
-  min-height: 50px;
+  min-height: 10px;
   padding: 2px;
   margin: 2px;
   margin-left: 15px;
@@ -19,6 +19,7 @@
 }
 .mainbody {
   font-size: 16px;
+  min-height: 5px;
   color: rgb(19, 86, 138)
 }
 
