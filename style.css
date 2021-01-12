@@ -1,0 +1,54 @@
+.box {
+  min-height: 50px;
+  padding: 2px;
+  margin: 2px;
+  margin-left: 15px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.border {
+  background: rgb(89, 191, 224);
+  min-height: 10px;
+  font-size: 9px;
+}
+.header {
+  background: rgb(243, 247, 248);
+  font-size: 30px;
+  color: rgb(19, 86, 138)
+}
+.mainbody {
+  font-size: 16px;
+  color: rgb(19, 86, 138)
+}
+
+.title {
+  background: rgb(243, 247, 248);
+  min-height: 10px;
+  font-size: 16px;
+  color: rgb(19, 86, 138)
+  }
+
+.table {
+  min-height: 50px;
+  padding: 1px;
+  margin: 1px;
+  font-weight: 600;
+  color: rgb(14, 138, 132);
+  text-align: center;
+}
+
+.th {
+  font-weight: 600;
+  color: rgb(112, 61, 13);
+}
+
+.td {
+  font-size: 16px;
+  color: rgb(133, 75, 111)
+}
+
+#bio-image{
+  width: 100%;
+  height: 100%;
+}
