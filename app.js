@@ -79,7 +79,7 @@ Plotly.newPlot("plot2", data2, layout2);
 
 // Create two arrays, each of which will hold data for a different trace
 var x = ['18Oct', '25Oct', '01Nov', '08Nov', '15Nov', '22Nov', '29Nov', '06Dec', '13Dec', '20Dec', '27Dec', '03Jan', '10Jan']
-var y0 = [6, 6.5, 5, 5.7, 6.2, 6.6, 7.0, 6.8, 7.2, 7.4, 8.1, 7.9, 8.4];
+var y0 = [16, 16.5, 15, 15.7, 16.2, 16.6, 17.0, 16.8, 17.2, 17.4, 18.1, 17.9, 18.4];
 
 
 // Create a trace object with the data in `y0`
@@ -95,7 +95,7 @@ var data3 = [trace1];
 
 // // Use `layout` to define a title
 var layout3 = {
-  title: "Deliveries Per Paid Hour"
+  title: "Items Delivered Per Paid Hour"
 };
 
 // // Render the plot to the `plot1` div
@@ -103,8 +103,8 @@ Plotly.newPlot("plot3", data3, layout3);
 
 // Create two arrays, each of which will hold data for a different trace
 var x = ['Retention Percent', 'Staff Percent']
-var y0 = [85, 88];
-var y1 = [93, 102];
+var y0 = [93, 102];
+var y1 = [88, 188];
 
 // Create a trace object with the data in `y0`
 var trace1 = {
