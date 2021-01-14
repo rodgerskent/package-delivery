@@ -1,15 +1,17 @@
 // Create two arrays, each of which will hold data for a different trace
-var x = ['Customer Rating (x10)', 'On-Time & Complete']
-var y0 = [48, 99.5];
-var y1 = [39, 96.5];
+var x = ['Customer Rating (x20)', 'On-Time & Complete']
+var y0 = [96, 99.5];
+var y1 = [78, 96.5];
 
 // Create a trace object with the data in `y0`
 var trace1 = {
   x: x,
   y: y0,
+  text: "13 Week Avg",
+  name: "13 Week Avg",
   //label = ["13-Week"],
   //visible = 'legendonly',
-  //name="Positive",
+  
   //showlegend = true,
   type: "bar"
 };
@@ -18,10 +20,8 @@ var trace1 = {
 var trace2 = {
   x: x,
   y: y1,
-  //label = ["13-Week"],
-  //visible = 'legendonly',
-  //name="Negative",
-  //showlegend = true,
+  text: "52 Week Avg",
+  name: "52 Week Avg",
   type: "bar"
 };
 
@@ -49,7 +49,8 @@ var y1 = [.3, 1.2];
 var trace1 = {
   x: y0,
   y: x,
-  label: "13-Week Avg",
+  text: "13 Week Avg",
+  name: "13 Week Avg",
   type: "bar",
   orientation: "h"
 };
@@ -58,7 +59,8 @@ var trace1 = {
 var trace2 = {
   x: y1,
   y: x,
-  label: "52-Week Avg",
+  text: "52 Week Avg",
+  name: "52 Week Avg",
   type: "bar",
   orientation: "h"
 };
@@ -104,12 +106,14 @@ Plotly.newPlot("plot3", data3, layout3);
 // Create two arrays, each of which will hold data for a different trace
 var x = ['Retention Percent', 'Staff Percent']
 var y0 = [93, 102];
-var y1 = [88, 188];
+var y1 = [88, 88];
 
 // Create a trace object with the data in `y0`
 var trace1 = {
   x: x,
   y: y0,
+  text: "13 Week Avg",
+  name: "13 Week Avg",
   type: "bar"
 };
 
@@ -117,6 +121,8 @@ var trace1 = {
 var trace2 = {
   x: x,
   y: y1,
+  text: "52 Week Avg",
+  name: "52 Week Avg",
   type: "bar"
 };
 
